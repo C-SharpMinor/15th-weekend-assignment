@@ -50,8 +50,8 @@ for (let i=1; i<=15; i++){
 // //    Create a variable containing "JavaScript".
 //    Use a for loop to display each character separately.
 const letters = "JavaScript";
-for (let i of letters){
-    console.log(i);
+for (let i = 0; i <= coursee.length; i++){
+    console.log(letters[i]);
 }
 
 
@@ -103,6 +103,7 @@ while(x<=10){
 //    Assume the user does not click Cancel.
 let pwd= "";
 while (pwd !== "learn123"){
+    alert("Incorrect password. Check and try again.");
     pwd= prompt("Enter a password");
 }
 alert("Access Granted!");
